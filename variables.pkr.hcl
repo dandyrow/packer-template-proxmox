@@ -24,11 +24,6 @@ variable "proxmox_node" {
   description = "Which node in the Proxmox cluster to start the virtual machine on during creation"
 }
 
-variable "iso_url" {
-  type        = string
-  description = "URL to an ISO file to upload to Proxmox, and then boot from"
-}
-
 variable "iso_storage_pool" {
   type        = string
   description = "Proxmox storage pool onto which to upload the ISO file"

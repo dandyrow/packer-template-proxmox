@@ -7,7 +7,7 @@ source "proxmox" "os name" {
   node        = var.proxmox_node
 
   # ISO settings
-  iso_url          = var.iso_url
+  iso_url          = "<ISO URL>"
   iso_storage_pool = var.iso_storage_pool
   iso_checksum     = "<ISO checksum>" # If downloading should be updated to latest before running packer build
 
